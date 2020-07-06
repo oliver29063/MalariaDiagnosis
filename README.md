@@ -12,7 +12,11 @@ In order to replicate the results, we first recommend setting the number of trai
 #### Evaluating Pre-Trained Neural Network Architectures
 
 #### Optimizing Classification Layers
-In this section, we determine the optimal dropout rate, number of nodes in the dense layers, and the activation function. The raw data of these results can be found at **MalariaDiagnosis/Dropout**, **MalariaDiagnosis/DenseNodes**, and **MalariaDiagnosis/ActivationFunctions**. The notebook used to gather these results can be found in this same folder at **Architecture Training for Classification.ipynb** or <a href="https://colab.research.google.com/drive/1F8x74o6_3jykbbVpXUktouWKDOGydi5j?usp=sharing>here</a>. In order to generate the data shown Figure 3, we use the notebook **Classification Architecture Evaluation.ipynb** or <a href="https://colab.research.google.com/drive/1kqDQYJWPtIqQbVs_U0AwysL832Tn-JVa?usp=sharing>here</a>.
+In this section, we determine the optimal dropout rate, number of nodes in the dense layers, and the activation function. The raw data of these results can be found at **MalariaDiagnosis/Dropout**, **MalariaDiagnosis/DenseNodes**, and **MalariaDiagnosis/ActivationFunctions**. The notebook used to gather these results can be found in this same folder at **Architecture Training for Classification.ipynb**. In order to generate the data shown Figure 3, we use the notebook **Classification Architecture Evaluation.ipynb**.
+  
+Online Google Colab versions are available:
+- Architecture Training for Classification.ipynb: https://colab.research.google.com/drive/1F8x74o6_3jykbbVpXUktouWKDOGydi5j?usp=sharing
+- Classification Architecture Evaluation.ipynb: https://colab.research.google.com/drive/1kqDQYJWPtIqQbVs_U0AwysL832Tn-JVa?usp=sharing
 
 #### Fine-Tuning Training Hyperparameters
 
