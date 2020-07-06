@@ -5,11 +5,14 @@ In order to replicate the results, we first recommend setting the number of trai
 
 ## Results
 
-### Red Blood Cell Object Detection
-
 ### Malaria Classification Model
 
 #### Evaluating Pre-Trained Neural Network Architectures
+In this section, we determine the best preliminary pre-trained CNN architecture to move forward with. The raw data of these results can be found at **MalariaDiagnosis/ArchitectureResults**. The notebook used to gather these results can be found in this same folder at **Architecture Testing.ipynb**. In order to generate the data shown in Figure 2, we use the notebook **Architecture Evaluation.ipynb". 
+
+Only Google Colab versions are available:
+- Architecture Evaluation.ipynb: https://colab.research.google.com/drive/1IahTdafeEFg4DdnHI2IitlaH0d5RfRZJ?usp=sharing
+- Architecture Testing.ipynb: https://colab.research.google.com/drive/1dzrXUnkqsWAkLNNIIaZwx4YYy0LOOcwV?usp=sharing
 
 #### Optimizing Classification Layers
 In this section, we determine the optimal dropout rate, number of nodes in the dense layers, and the activation function. The raw data of these results can be found at **MalariaDiagnosis/Dropout**, **MalariaDiagnosis/DenseNodes**, and **MalariaDiagnosis/ActivationFunctions**. The notebook used to gather these results can be found in this same folder at **Architecture Training for Classification.ipynb**. In order to generate the data shown Figure 3, we use the notebook **Classification Architecture Evaluation.ipynb**.
@@ -19,9 +22,16 @@ Online Google Colab versions are available:
 - Classification Architecture Evaluation.ipynb: https://colab.research.google.com/drive/1kqDQYJWPtIqQbVs_U0AwysL832Tn-JVa?usp=sharing
 
 #### Fine-Tuning Training Hyperparameters
+In this section, we determine the optimal optimizer type, learning rate, and batch size. The raw data of these results can be found at **MalariaDiagnosis/Optimizers** and **MalariaDiagnosis/BatchSize**. The notebook used to gather these results can be found in this same folder at **Architecture Training for Optimizers.ipynb**. In order to generate the data shown in Figure 4, we use the notebook **Optimizer Architecture Evaluation.ipynb**. 
+
+Online Google Colab versions are available: 
+- Architecture Training for Optimizers.ipynb: https://colab.research.google.com/drive/1cjaYpPl_OdfnDsxZPb6wrHNeHFb3F9C9?usp=sharing
+- Optimizer Architecture Evaluation.ipynb: https://colab.research.google.com/drive/106qRc7l45pAER0PfhTiJzlMMEJxI3G5P?usp=sharing
 
 ### Image Resolution Upscaling
+In this section, we determine the optimal number of mapping layers, high feature dimension space, and low feature dimension space for our FSRCNN model. The raw data of this results can be found at **MalariaDiagonsis/Upscaling/FSRCNN**. The notebook used to gather these results can be found in this same folder at **FSRCNN Training.ipynb**. The values were manually analyzed to create Table 4. To generate the results for Table 5, the images can be directly exported and run through the model with the correct hyperparameters - which can be copied, pasted, and adjusted from any of the \*.ipynb files training the VGG16 CNN.
 
-### Integration of CNNs on Mobile Platform
+Online Google Colab versions are available: 
+- FSRCNN Training.ipynb: https://colab.research.google.com/drive/1tg5uY-tL0eCj_ikR-PNAQDBdr1SlHC73?usp=sharing
 
-## Discussion
+### Red Blood Cell Object Detection
