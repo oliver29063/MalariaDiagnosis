@@ -1,5 +1,5 @@
 ## OVERVIEW
-In this folder, we store the results of testing ReLU and Tanh activation functions for the VGG16 model. All other hyperparameters were the same during training.
+In this folder, we store the results of testing different batch sizes for the VGG16 model. All other hyperparameters were the same during training.
 
 ## TRAINING AND TESTING CONDITIONS
 In order to reduce computational burden, the performance of each model was evaluated on a subset of 10,000 images with balanced classes between uninfected and parasitized red blood cells. Five-fold cross-validation was performed, in which the mean and 95% confidence intervals are displayed on the figures below. An SGD w/ Nesterov optimizer with a small learning rate of 1e-5 was used. After the convolutional layers, there were two fully connected dense layers with 1024 ReLU nodes each and 0.5 dropout. The batch size was set to: 4, 8, 16, 32, 64, 128, and 256. The models were trained for 50 epochs. A categorical cross-entropy loss function was used.
