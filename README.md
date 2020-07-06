@@ -10,7 +10,7 @@ In order to replicate the results, we first recommend setting the number of trai
 #### Evaluating Pre-Trained Neural Network Architectures
 In this section, we determine the best preliminary pre-trained CNN architecture to move forward with. The raw data of these results can be found at **MalariaDiagnosis/ArchitectureResults**. The notebook used to gather these results can be found in this same folder at **Architecture Testing.ipynb**. In order to generate the data shown in Figure 2, we use the notebook **Architecture Evaluation.ipynb". 
 
-Only Google Colab versions are available:
+Online Google Colab versions are available:
 - Architecture Evaluation.ipynb: https://colab.research.google.com/drive/1IahTdafeEFg4DdnHI2IitlaH0d5RfRZJ?usp=sharing
 - Architecture Testing.ipynb: https://colab.research.google.com/drive/1dzrXUnkqsWAkLNNIIaZwx4YYy0LOOcwV?usp=sharing
 
