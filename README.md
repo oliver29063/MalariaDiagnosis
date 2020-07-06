@@ -3,7 +3,7 @@ This GitHub repository contains the source code for the PeerJ manuscript submiss
 
 In order to replicate the results, we first recommend setting the number of training epochs to 1 to ensure that the notebooks function correctly. Then the epoch count can be changed back to run the full training process, which can take quite some time. Please note that the results will slightly vary from the provided \*.csv files, but should give closely similar results. 
 
-## Results
+## Replicating the Results w/ Jupyter Notebooks
 
 ### Malaria Classification Model
 
@@ -35,3 +35,4 @@ Online Google Colab versions are available:
 - FSRCNN Training.ipynb: https://colab.research.google.com/drive/1tg5uY-tL0eCj_ikR-PNAQDBdr1SlHC73?usp=sharing
 
 ### Red Blood Cell Object Detection
+In this section, we generate the SSD300 object detection model, whose results are shown on Table 2 of the manuscript. The notebook used is found in this same folder at **SSD300 Object Detection.ipynb**. This notebook **MUST** be run on the Google Cloud Computing Platform with either of the two specifications mentioned in the manuscript. 
