@@ -1,7 +1,7 @@
 # MalariaDiagnosis
 This GitHub repository contains the source code for the PeerJ manuscript submission titled **"Convolutional Neural Networks to Automate the Screening of Malaria in Low-Resource Countries**". In order to best delineate which Jupyter Notebooks are used in each part of the manuscript, we will list them by sections and subsections of the manuscript. These notebook were run on either: (1) Google Colab, (2) Google Cloud Computing Platform, or (3) a personal laptop with CUDA GPA. Each notebook will specify which platform was used and list the versions of every Python package in use. 
 
-In order to replicate the results, we first recommend setting the number of training epochs to 1 to ensure that the notebooks function correctly. Then the epoch count can be changed back to run the full training process, which can take quite some time. Please note that the results will slightly vary from the provided \*.csv files, but should give closely similar results. 
+In order to replicate the results, we first recommend setting the number of training epochs to 10 (or another low amount) to ensure that the notebooks function correctly. Then the epoch count can be changed back to run the full training process, which can take quite some time. Please note that the results will slightly vary from the provided \*.csv files, but should give closely similar results. 
 
 ## Replicating the Results w/ Jupyter Notebooks
 
